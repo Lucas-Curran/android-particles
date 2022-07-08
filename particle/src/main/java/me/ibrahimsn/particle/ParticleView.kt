@@ -118,7 +118,7 @@ class ParticleView @JvmOverloads constructor(
         if (holder != null) holder.addCallback(this)
         hasSurface = false
         setZOrderMediaOverlay(true)
-        holder.setFormat(PixelFormat.TRANSLUCENT)
+        holder.setFormat(PixelFormat.TRANSPARENT)
     }
 
     private fun obtainStyledAttributes(attrs: AttributeSet, defStyleAttr: Int) {
