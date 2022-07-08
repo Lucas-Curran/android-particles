@@ -34,7 +34,7 @@ class ParticleView @JvmOverloads constructor(
     private var _particleMaxRadius = 10
 
     @ColorInt
-    private var _particlesBackgroundColor = Color.BLACK
+    private var _particlesBackgroundColor = Color.TRANSPARENT
 
     @ColorInt
     private var _particleColor = Color.WHITE
