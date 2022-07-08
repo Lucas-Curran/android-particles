@@ -117,7 +117,6 @@ class ParticleView @JvmOverloads constructor(
         obtainStyledAttributes(attrs, defStyleAttr)
         if (holder != null) holder.addCallback(this)
         hasSurface = false
-        setZOrderOnTop(true)
         holder.setFormat(PixelFormat.TRANSLUCENT)
     }
 
